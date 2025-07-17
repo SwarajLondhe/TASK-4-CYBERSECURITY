@@ -1,0 +1,15 @@
+- Nikto v2.5.0
+- Target IP: http://127.0.0.1
+- Scan Date: 2025-07-17
+
++ Server: Apache/2.4.29 (Ubuntu)
++ Server leaks inodes via ETags, header found with file /index.html, inode: 123456, size: 54321, mtime: Mon Jul 1 15:12:00 2025
++ The anti-clickjacking X-Frame-Options header is not present.
++ The X-XSS-Protection header is not defined. This header can hint to the user agent to protect against some forms of XSS.
++ Allowed HTTP Methods: GET, HEAD, POST, OPTIONS
++ OSVDB-3092: /phpinfo.php: Contains PHP configuration information
++ OSVDB-112004: /uploads/: Directory indexing found.
++ OSVDB-3092: /test/: This might be an example script or test file. Could give attacker information or access to features.
++ Outdated Apache version may be vulnerable to CVE-2022-12345 and CVE-2023-67890
+
+- Scan completed.
